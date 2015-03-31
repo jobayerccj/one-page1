@@ -15,18 +15,6 @@
     <!-- Font awesome css -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/linecons.css">
-    
-    <link rel="stylesheet" href="inc/strip/css/strip.css">
-    
-    <!-- Owl carousel 2 css -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
