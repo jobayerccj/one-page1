@@ -154,6 +154,14 @@ require get_template_directory() . '/inc/template-tags.php';
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
+require get_template_directory() . '/inc/cpt-sections.php';
+require get_template_directory() . '/inc/mb/mb-section-type.php';
+
+
+
+if (!class_exists("CMB2")) {
+    require get_template_directory() . '/libs/cmb2/init.php';
+}
 
 /**
  * Customizer additions.

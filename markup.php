@@ -159,7 +159,7 @@
                             </div>
                             
                             <div class="article-footer">
-                                <img src="img/author_1.jpg" alt="" class="author-thumb">
+                                <img src="<?php echo get_template_directory_uri();?>/img/author_1.jpg" alt="" class="author-thumb">
                                 <p><a href="">jimmy jefferson</a><br/>21/08/2013</p>
                             </div>
                         </div>
@@ -173,7 +173,7 @@
                             </div>
                             
                             <div class="article-footer">
-                                <img src="img/author_2.jpg" alt="" class="author-thumb">
+                                <img src="<?php echo get_template_directory_uri();?>/img/author_2.jpg" alt="" class="author-thumb">
                                 <p><a href="">Gail Gutierrez</a><br/>21/08/2013</p>
                             </div>
                         </div>
@@ -187,7 +187,7 @@
                             </div>
                             
                             <div class="article-footer">
-                                <img src="img/author_3.jpg" alt="" class="author-thumb">
+                                <img src="<?php echo get_template_directory_uri();?>/img/author_3.jpg" alt="" class="author-thumb">
                                 <p><a href="">mason johnston</a><br/>21/08/2013</p>
                             </div>
                         </div>
@@ -201,7 +201,7 @@
                             </div>
                             
                             <div class="article-footer">
-                                <img src="img/author_1.jpg" alt="" class="author-thumb">
+                                <img src="<?php echo get_template_directory_uri();?>/img/author_1.jpg" alt="" class="author-thumb">
                                 <p><a href="">jimmy jefferson</a><br/>21/08/2013</p>
                             </div>
                         </div>
@@ -227,25 +227,25 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="client-list wow zoomIn">
                         <div class="single-client">
-                            <img src="img/client_1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/client_1.png" alt="">
                         </div>
                         <div class="single-client">
-                            <img src="img/client_2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/client_2.png" alt="">
                         </div>
                         <div class="single-client">
-                            <img src="img/client_3.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/client_3.png" alt="">
                         </div>
                         <div class="single-client">
-                            <img src="img/client_4.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/client_4.png" alt="">
                         </div>
                         <div class="single-client">
-                            <img src="img/client_5.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/client_5.png" alt="">
                         </div>
                         <div class="single-client">
-                            <img src="img/client_1.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/client_1.png" alt="">
                         </div>
                         <div class="single-client">
-                            <img src="img/client_2.png" alt="">
+                            <img src="<?php echo get_template_directory_uri();?>/img/client_2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -281,12 +281,12 @@
             <div class="portfolio-items wow zoomIn">
                
                 <figure class="single-portfolio mystery paintings">
-                    <img src="img/portfolio_1.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_1.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Creative <span>Zoe</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_1_big.jpg" class="strip" data-strip-caption="Creative Zoe" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_1_big.jpg" class="strip" data-strip-caption="Creative Zoe" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
                     </figcaption>			
@@ -295,12 +295,12 @@
                
                
                 <figure class="single-portfolio illusion">
-                    <img src="img/portfolio_2.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_2.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Another <span>Project</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_2_big.jpg" class="strip" data-strip-caption="Another Project" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_2_big.jpg" class="strip" data-strip-caption="Another Project" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque, voluptate consectetur?</p>
                     </figcaption>			
@@ -309,12 +309,12 @@
                
                
                 <figure class="single-portfolio mystery">
-                    <img src="img/portfolio_3.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_3.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Super <span>Project</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_3_big.jpg" class="strip" data-strip-caption="Super Project" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_3_big.jpg" class="strip" data-strip-caption="Super Project" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, iure, sunt.</p>
                     </figcaption>			
@@ -323,12 +323,12 @@
                
                
                 <figure class="single-portfolio illusion paintings">
-                    <img src="img/portfolio_4.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_4.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Second <span>Project</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_4_big.jpg" class="strip" data-strip-caption="Second Project" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_4_big.jpg" class="strip" data-strip-caption="Second Project" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil accusamus, sapiente.</p>
                     </figcaption>			
@@ -336,12 +336,12 @@
                
                
                 <figure class="single-portfolio art">
-                    <img src="img/portfolio_5.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_5.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Long <span>Project title</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_5_big.jpg" class="strip" data-strip-caption="Long Project title" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_5_big.jpg" class="strip" data-strip-caption="Long Project title" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, quaerat excepturi.</p>
                     </figcaption>			
@@ -350,12 +350,12 @@
                
                
                 <figure class="single-portfolio mystery illusion">
-                    <img src="img/portfolio_6.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_6.jpg" alt="img25"/>
                     <figcaption>
                         <h2>My <span>Project</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_6_big.jpg" class="strip" data-strip-caption="My Project" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_6_big.jpg" class="strip" data-strip-caption="My Project" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, officia, unde.</p>
                     </figcaption>			
@@ -364,12 +364,12 @@
                
                
                 <figure class="single-portfolio art paintings">
-                    <img src="img/portfolio_7.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_7.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Website <span>Project</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_7_big.jpg" class="strip" data-strip-caption="Website project" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_7_big.jpg" class="strip" data-strip-caption="Website project" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, dolore, id.</p>
                     </figcaption>			
@@ -378,12 +378,12 @@
                
                
                 <figure class="single-portfolio illusion">
-                    <img src="img/portfolio_8.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_8.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Clean <span>Project</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_8_big.jpg" class="strip" data-strip-caption="Clean Project" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_8_big.jpg" class="strip" data-strip-caption="Clean Project" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, aspernatur labore.</p>
                     </figcaption>			
@@ -391,12 +391,12 @@
                
                
                 <figure class="single-portfolio travel art">
-                    <img src="img/portfolio_9.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_9.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Awesome <span>project</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_9_big.jpg" class="strip" data-strip-caption="Awesome project" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_9_big.jpg" class="strip" data-strip-caption="Awesome project" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, suscipit autem?</p>
                     </figcaption>			
@@ -405,12 +405,12 @@
                
                
                 <figure class="single-portfolio art paintings">
-                    <img src="img/portfolio_10.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_10.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Nice <span>Project</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_10_big.jpg" class="strip" data-strip-caption="Nice Project" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_10_big.jpg" class="strip" data-strip-caption="Nice Project" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptatibus, corrupti.</p>
                     </figcaption>			
@@ -419,12 +419,12 @@
                
                
                 <figure class="single-portfolio mystery travel">
-                    <img src="img/portfolio_11.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_11.jpg" alt="img25"/>
                     <figcaption>
                         <h2>Superb <span>Project</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_11_big.jpg" class="strip" data-strip-caption="Superb project" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_11_big.jpg" class="strip" data-strip-caption="Superb project" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, amet, eveniet.</p>
                     </figcaption>			
@@ -433,12 +433,12 @@
                
                
                 <figure class="single-portfolio travel">
-                    <img src="img/portfolio_12.jpg" alt="img25"/>
+                    <img src="<?php echo get_template_directory_uri();?>/img/portfolio_12.jpg" alt="img25"/>
                     <figcaption>
                         <h2>I am too <span>Tired</span></h2>
                         <p class="icon-links">
                             <a href="#"><i class="li_world"></i></a>
-                            <a href="img/portfolio_12_big.jpg" class="strip" data-strip-caption="I am too tired" data-strip-group="unicorn"><i class="li_search"></i></a>
+                            <a href="<?php echo get_template_directory_uri();?>/img/portfolio_12_big.jpg" class="strip" data-strip-caption="I am too tired" data-strip-group="unicorn"><i class="li_search"></i></a>
                         </p>
                         <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, possimus suscipit!</p>
                     </figcaption>			
@@ -506,28 +506,28 @@
             <div class="row">
                 <div class="col-sm-3 wow zoomIn">
                     <div class="single-team">
-                        <img src="img/team_1.png" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/img/team_1.png" alt="">
                         <h2>James Philly</h2>
                         <p>Lead Developer</p>
                     </div>
                 </div>
                 <div class="col-sm-3 wow zoomIn">
                     <div class="single-team">
-                        <img src="img/team_2.png" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/img/team_2.png" alt="">
                         <h2>Cactus Jack</h2>
                         <p>3D Model Designer</p>
                     </div>
                 </div>
                 <div class="col-sm-3 wow zoomIn">
                     <div class="single-team">
-                        <img src="img/team_3.png" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/img/team_3.png" alt="">
                         <h2>Jack Sparrow</h2>
                         <p>Master of All Trade</p>
                     </div>
                 </div>
                 <div class="col-sm-3 wow zoomIn">
                     <div class="single-team">
-                        <img src="img/team_4.png" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/img/team_4.png" alt="">
                         <h2>Yaga Squarehead</h2>
                         <p>Manages Money</p>
                     </div>
@@ -609,7 +609,7 @@
                             
                             <div class="col-sm-6">
                                 <div class="event-thumb">
-                                    <img src="img/event_1.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri();?>/img/event_1.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -618,7 +618,7 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="event-thumb">
-                                    <img src="img/event_2.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri();?>/img/event_2.jpg" alt="">
                                 </div>
                             </div>
                                                        
@@ -649,7 +649,7 @@
                             
                             <div class="col-sm-6">
                                 <div class="event-thumb">
-                                    <img src="img/event_3.jpg" alt="">
+                                    <img src="<?php echo get_template_directory_uri();?>/img/event_3.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -701,7 +701,7 @@
                     </div>
                     
                     <div class="single-twitter-feed">
-                        <img src="img/testimonial_author.jpg" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/img/testimonial_author.jpg" alt="">
                         <div id="tweet"></div>
                         <p class="author-twitter"><a target="_blank" href="http://twitter.com/wpexpand">@wpexpand</a></p>
                     </div>
