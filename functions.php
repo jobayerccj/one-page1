@@ -140,6 +140,14 @@ function onepage1_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'onepage1_scripts' );
 
+
+add_action ("admin_enqueue_scripts","admin_scripts");
+function admin_scripts($hook){
+    if("post.php"==$hook || "post-new.php"==$hook){
+        wp_enqueue_script('opt-js', get_template_directory_uri(). '/js/opt.js', array("jquery"), '20130127', true);
+    }
+}
+
 /**
  * Implement the Custom Header feature.
  */
@@ -156,6 +164,7 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/extras.php';
 require get_template_directory() . '/inc/cpt-sections.php';
 require get_template_directory() . '/inc/mb/mb-section-type.php';
+require get_template_directory() . '/inc/mb/mb-section-banner.php';
 
 
 
