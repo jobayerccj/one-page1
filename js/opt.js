@@ -1,6 +1,6 @@
 ;
 (function ($) {
-    var sections = ["mb_banner","mb_feature","mb_testimonial"];
+    var sections = ["mb_banner","mb_about","mb_testimonial"];
     $(document).ready(function () {
         $(".cmb2-id--cmb2-stb li").on("click", "input", function () {
 
@@ -18,17 +18,6 @@
         });
 
         displayDefaultMetabox();
-
-        $("#_cmb2_display2ndpart").on("click",function(e){
-            if(!$(this).prop("checked")){
-                $("#_cmb2_buttontext, #_cmb2_buttonurl").parents(".cmb-row").hide();
-            }else{
-                $("#_cmb2_buttontext, #_cmb2_buttonurl").parents(".cmb-row").show();
-
-            }
-        })
-
-
 
     });
 

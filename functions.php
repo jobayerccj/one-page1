@@ -85,8 +85,8 @@ add_action( 'after_setup_theme', 'onepage1_setup' );
  */
 function onepage1_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'onepage1' ),
-		'id'            => 'sidebar-1',
+		'name'          => __( 'Feature Sidebar', 'onepage1' ),
+		'id'            => 'feature1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
@@ -164,12 +164,15 @@ require get_template_directory() . '/inc/template-tags.php';
 require get_template_directory() . '/inc/extras.php';
 require get_template_directory() . '/inc/cpt-sections.php';
 require get_template_directory() . '/inc/mb/mb-section-type.php';
+require get_template_directory() . '/inc/mb/mb-page-sections.php';
 require get_template_directory() . '/inc/mb/mb-section-banner.php';
-
+require get_template_directory() . '/inc/mb/mb-section-about.php';
 
 
 if (!class_exists("CMB2")) {
     require get_template_directory() . '/libs/cmb2/init.php';
+    require get_template_directory() . '/libs/cmb2-select/cmb-field-select2.php';
+    //require get_template_directory() . '/libs/cmb2/example.php';
 }
 
 /**
@@ -181,3 +184,20 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+function get_the_sections(){
+    $args = array(
+        "post_type"=>"section",
+        "posts_per_page"=>-1,
+    );
+
+    $sections = get_posts($args);
+
+    $_sections = array();
+    if($sections){
+        foreach($sections as $section){
+            $_sections[$section->ID] = $section->post_title;
+        }
+    }
+    return $_sections;
+}

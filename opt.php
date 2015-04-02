@@ -2,7 +2,11 @@
 /**
  * Template Name: OnePageTheme
  */
+
+$sections = get_post_meta(get_the_ID(),"_cmb2_sections",1);
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -64,52 +68,30 @@
         </div>
     </header> <!-- End header -->
     
-    <section id="slider">
-       
-        <div data-velocity="-.2" class="overlay-bg slide-bg"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="slide-text-table">
-                        <div class="slide-text-table-cell">
-                            <div class="slide-text wow fadeIn">
-                                <h1>STORYTELLER</h1>
-
-                                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. </p>   
-
-                                <a href="" class="learn-more">read the rest</a>                     
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section> <!-- End slider -->
+    <?php
     
-    
-    <section id="about" class="section-padding text-center">
-        <div class="container">
-            
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="about-text wow bounceIn">
-                        <div class="about-icon">
-                            <i class="li_lab"></i>
-                        </div>
-                        
-                        <h2>Who & Why</h2>
-                        <p>The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the evening. But Gregor found it easy to give up having the door open, he had, after all, often failed to make use of it when it was open and, without the family having noticed it, lain in his room in its darkest corner. One time, though, the charwoman left the door.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> <!-- End about -->
+    //print_r($sections);
+    foreach($sections as $section){
+        
+        $type = get_post_meta($section,"_cmb2_stb",1);
+        //echo $type;
+        if($type){
+            get_template_part("templates/sections/section",$type);
+        }
+    }
+    ?>
+        
     
     <section id="our-services" class="section-gray section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 wow zoomIn" data-wow-delay="100ms" data-wow-duration="700ms">
+                <?php 
+                
+                    if ( is_active_widget('feature1') ) {
+                             echo 'test';
+                    }
+                ?>
+<!--                <div class="col-sm-4 wow zoomIn" data-wow-delay="100ms" data-wow-duration="700ms">
                     <div class="single-service">
                         <i class="li_fire"></i>
                         <h2>An Wow Feature</h2>
@@ -129,7 +111,7 @@
                         <h2>An Amazing Feature</h2>
                         <p>The gentlemen who rented the room would sometimes take their evening meal at home in the living.</p>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section> <!-- End our services -->

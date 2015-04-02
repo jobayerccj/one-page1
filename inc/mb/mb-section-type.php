@@ -31,7 +31,7 @@ function opt_mb_st( array $meta_boxes ) {
                 'type' => 'radio',
                 'options'=>array(
                     "banner"=>"Banner",
-                    "who_why"=>"Who & Why",
+                    "about"=>"About",
                     "featute_list"=>"Feature List",
                     "feature_article"=>"Feature Article",
                     "clients"=>"Clients",
