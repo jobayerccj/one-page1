@@ -1,6 +1,6 @@
 ;
 (function ($) {
-    var sections = ["mb_banner","mb_about","mb_testimonial"];
+    var sections = ["mb_banner","mb_about","mb_feature","mb_fe_article","mb_clients", "mb_portfolio","mb_feedback","mb_team","mb_facts","mb_events","mb_projects","mb_twitter"];
     $(document).ready(function () {
         $(".cmb2-id--cmb2-stb li").on("click", "input", function () {
 

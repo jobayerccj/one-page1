@@ -32,8 +32,8 @@ function opt_mb_st( array $meta_boxes ) {
                 'options'=>array(
                     "banner"=>"Banner",
                     "about"=>"About",
-                    "featute_list"=>"Feature List",
-                    "feature_article"=>"Feature Article",
+                    "feature"=>"Feature List",
+                    "fe_article"=>"Feature Article",
                     "clients"=>"Clients",
                     "portfolio"=>"Portfolio",
                     "feedback"=>"Feedback",

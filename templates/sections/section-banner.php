@@ -1,8 +1,6 @@
 <?php
 $prefix = "_cmb2_";
 global $section;
-
-
 ?>
 <section id="slider" >
        

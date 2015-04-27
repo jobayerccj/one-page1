@@ -1,12 +1,12 @@
 <?php
-add_filter( 'cmb2_meta_boxes', 'opt_mb_stb' );
+add_filter( 'cmb2_meta_boxes', 'opt_mb_stfe' );
 /**
  * Define the metabox and field configurations.
  *
  * @param  array $meta_boxes
  * @return array
  */
-function opt_mb_stb( array $meta_boxes ) {
+function opt_mb_stfe( array $meta_boxes ) {
 
     // Start with an underscore to hide fields from custom fields list
     $prefix = '_cmb2_';
@@ -14,9 +14,9 @@ function opt_mb_stb( array $meta_boxes ) {
     /**
      * Sample metabox to demonstrate each field type included
      */
-    $meta_boxes['stb'] = array(
-        'id'            => 'mb_banner',
-        'title'         => __( 'Banner Settings', 'cmb2' ),
+    $meta_boxes['stfe'] = array(
+        'id'            => 'mb_feature',
+        'title'         => __( 'Feature Settings', 'cmb2' ),
         'object_types'  => array( 'section', ), // Post type
         'context'       => 'normal',
         'priority'      => 'high',
@@ -26,37 +26,17 @@ function opt_mb_stb( array $meta_boxes ) {
         'fields'        => array(
             array(
                 "name"=>"Primary Title",
-                "id"=>$prefix."banner_ptitle",
+                "id"=>$prefix."feature_ptitle",
                 "type"=>"text",
                 "default"=>"STORYTELLER"
             ),
             array(
-                "name"=>"Primary Description",
-                "id"=>$prefix."banner_pdesc",
+                "name"=>"Description",
+                "id"=>$prefix."feature_pdesc",
                 "type"=>"textarea",
                 "default"=>""
-            ),
-            array(
-                "name"=>"Background Image",
-                "id"=>$prefix."banner",
-                "type"=>"file",
-                "default"=>""
-            ),
-
-            array(
-                "name"=>"Button Text",
-                "id"=>$prefix."buttontext",
-                "type"=>"text",
-                "default"=>"read the rest"
-            ),
-            array(
-                "name"=>"Button Url",
-                "id"=>$prefix."buttonurl",
-                "type"=>"text",
-                "default"=>""
-            ),
-
-
+            )
+        
         ),
     );
 

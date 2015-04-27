@@ -167,7 +167,16 @@ require get_template_directory() . '/inc/mb/mb-section-type.php';
 require get_template_directory() . '/inc/mb/mb-page-sections.php';
 require get_template_directory() . '/inc/mb/mb-section-banner.php';
 require get_template_directory() . '/inc/mb/mb-section-about.php';
-
+require get_template_directory() . '/inc/mb/mb-section-feature.php';
+require get_template_directory() . '/inc/mb/mb-section-fe_article.php';
+require get_template_directory() . '/inc/mb/mb-section-clients.php';
+require get_template_directory() . '/inc/mb/mb-section-portfolio.php';
+require get_template_directory() . '/inc/mb/mb-section-feedback.php';
+require get_template_directory() . '/inc/mb/mb-section-team.php';
+require get_template_directory() . '/inc/mb/mb-section-facts.php';
+require get_template_directory() . '/inc/mb/mb-section-events.php';
+require get_template_directory() . '/inc/mb/mb-section-projects.php';
+require get_template_directory() . '/inc/mb/mb-section-twitter.php';
 
 if (!class_exists("CMB2")) {
     require get_template_directory() . '/libs/cmb2/init.php';
